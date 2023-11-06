@@ -17,5 +17,6 @@ git clone https://github.com/ziomek-z-ulicy/Termux-Basic-Setup.git
 cd Termux-Basic-Setup
 chmod +x Start.sh
 ./Start.sh
+#running
 ``` 
 3. Done!

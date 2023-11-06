@@ -12,4 +12,6 @@ clear
 apt install tor -y
 clear
 apt install figlet -y
+cd 
+rm -rf Termux-Basic-Setup
 figlet Done!

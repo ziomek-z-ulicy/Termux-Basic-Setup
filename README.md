@@ -7,8 +7,12 @@
 5. `./Start.sh` 
 6. Done!
 ## Version To Copy:
+1.
 ```bash
 pkg install git
+```
+2.
+```bash
 git clone https://github.com/ziomek-z-ulicy/Termux-Basic-Setup.git
 cd Termux-Basic-Setup
 chmod +x Start.sh

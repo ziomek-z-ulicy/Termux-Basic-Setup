@@ -11,3 +11,4 @@ figlet Done!
 sleep 5
 cd 
 rm -rf Termux-Basic-Setup
+cd

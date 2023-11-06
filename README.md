@@ -6,7 +6,6 @@ How To Run:
 4. ./Start.sh 
 5. Done!
 Version To Copy:
-
 apt install git
 git clone https://github.com/ziomek-z-ulicy/Termux-Basic-Setup.git
 chmod +x Start.sh

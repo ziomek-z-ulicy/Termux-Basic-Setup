@@ -6,10 +6,10 @@ apt install zip unzip -y
 apt install nano vim -y
 apt install tor -y
 apt install figlet -y
+pkg install root-repo -y
+pkg install x11-repo
 clear
 figlet Done!
-sleep 5
-cd 
+sleep 2
+cd $HOME
 rm -rf Termux-Basic-Setup
-cd
-cd

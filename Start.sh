@@ -7,7 +7,10 @@ apt install nano vim -y
 apt install tor -y
 apt install figlet -y
 pkg install root-repo -y
-pkg install x11-repo
+pkg install x11-repo -y
+pkg install termux-api -y
+apt install nmap -y
+apt install core-ultis -y
 clear
 figlet Done!
 sleep 2

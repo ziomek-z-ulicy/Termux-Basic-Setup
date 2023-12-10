@@ -16,3 +16,5 @@ figlet Done!
 sleep 2
 cd $HOME
 rm -rf Termux-Basic-Setup
+clear
+cd $HOME

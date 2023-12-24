@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 echo "You you will need +-1gb of space, continue? (y/n)"
 echo "[y] - continue"
 echo "[n] - exit"

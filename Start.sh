@@ -1,7 +1,15 @@
-clear
-echo You you will need +-1gb of space [press CTRL + C to Abort]
-echo Wait to continue
-sleep 3
+#!/bin/bash
+
+echo "You you will need +-1gb of space, continue? (y/n)"
+echo "[y] - continue"
+echo "[n] - exit"
+read choice
+
+while true; do
+    case $choice in
+        [Yy]*)
+            echo "Continuing..."
+            clear
 clear
 [?] Updating Termux
 pkg update && pkg upgrade -y
@@ -37,3 +45,16 @@ figlet Done!
 sleep 2
 cd $HOME
 echo [rm -rf termux-basic-setup] to remove script
+            break
+            ;;
+        [Nn]*)
+            echo "Exiting..."
+            
+            exit 1
+            ;;
+        *)
+            echo "ERROR: type 'y' or 'n'."
+            read choice
+            ;;
+    esac
+done

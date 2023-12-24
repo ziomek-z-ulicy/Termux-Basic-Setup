@@ -1,4 +1,6 @@
+pkg update && pkg upgrade -y
 apt update && apt upgrade -y
+apt full-upgrade -y
 termux-setup-storage
 apt install git curl wget -y
 apt install python python2 python3 -y
